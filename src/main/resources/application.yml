@@ -1,0 +1,10 @@
+mylogger:
+  minLogLevel: WARNING
+  logTargets:
+    - type: console
+    - type: email
+      level: ERROR
+
+
+
+
