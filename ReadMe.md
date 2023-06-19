@@ -27,10 +27,14 @@ run mvn clean test
 ## How to configure 
 
 mylogger:
+
 minLogLevel: WARNING
+
 logTargets:
 - type: console
+
 - type: email
+
 level: ERROR
 
 
