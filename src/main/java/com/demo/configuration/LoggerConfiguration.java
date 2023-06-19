@@ -1,4 +1,4 @@
-package com.javatpoint.configuration;
+package com.demo.configuration;
 
 import com.logger.enumeration.LogLevel;
 import com.logger.impl.ConsoleLogTarget;

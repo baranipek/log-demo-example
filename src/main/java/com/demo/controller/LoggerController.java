@@ -1,4 +1,4 @@
-package com.javatpoint.controller;
+package com.demo.controller;
 
 import com.logger.enumeration.LogLevel;
 import com.logger.impl.LightLogger;

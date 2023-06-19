@@ -1,6 +1,5 @@
-package com.javatpoint.controller;
+package com.demo.controller;
 
-import com.logger.impl.ConsoleLogTarget;
 import com.logger.impl.EmailLogTarget;
 import com.logger.impl.LightLogger;
 import com.logger.enumeration.LogLevel;
@@ -12,9 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.boot.test.web.client.TestRestTemplate.HttpClientOption;
 import org.springframework.boot.web.server.LocalServerPort;
-import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.io.ByteArrayOutputStream;

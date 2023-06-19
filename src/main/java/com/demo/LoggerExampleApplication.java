@@ -1,12 +1,9 @@
-package com.javatpoint;
+package com.demo;
 
-import com.javatpoint.configuration.LoggerConfiguration;
-import com.logger.enumeration.LogLevel;
-import com.logger.impl.LightLogger;
+import com.demo.configuration.LoggerConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableConfigurationProperties(LoggerConfiguration.class)
